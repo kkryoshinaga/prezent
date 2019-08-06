@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.hyou{
+	padding:10px;
+	background-color:white;
+	height:100px;
+}
+
+
+.cart{
+	padding:10px;
+	background-color:gray;
+}
+
+.fotter{
+	padding:10px;
+	background-color:gray;
+	height:300px;
+}

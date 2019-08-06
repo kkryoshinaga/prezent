@@ -1,0 +1,41 @@
+
+.header{
+	background-color:#CEF9DC;
+	height:100px;
+	width:1000px;
+	border:solid 1px white;
+	}
+
+.logo{
+	background-color:#FFFF00;
+	height:100px;
+	width:150px;
+	border:solid 1px white;
+	vertical-align:middle;
+	text-align:center;
+
+}
+.amazon{
+
+	float:left;
+}
+.body{
+	background-color:white;
+	height:150px;
+	width:200px;
+	border: solid 2px white;
+	float:left;
+	vertical-align:middle;
+	text-align:center;
+}
+.rakuten{
+
+	float:left;
+}
+.fotter{
+	float:left;
+	border:solid 1px white;
+	height:100px;
+	width:1000px;
+	background-color:#CEF9DC;
+}

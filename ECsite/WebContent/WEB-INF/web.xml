@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>ECsite</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  		<servlet-name>search</servlet-name>
+  		<servlet-class>web.SerchServlet</servlet-class>
+  	</servlet>
+
+  	<servlet-mapping>
+  		<servlet-name>search</servlet-name>
+  		<url-pattern>/search</url-pattern>
+  	</servlet-mapping>
+
+  <servlet>
+  		<servlet-name>cart</servlet-name>
+  		<servlet-class>web.Details</servlet-class>
+  	</servlet>
+
+  	<servlet-mapping>
+  		<servlet-name>cart</servlet-name>
+  		<url-pattern>/cart</url-pattern>
+  	</servlet-mapping>
+
+   <servlet>
+  		<servlet-name>Login</servlet-name>
+  		<servlet-class>web.LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  		<servlet-name>Login</servlet-name>
+  		<url-pattern>/Login</url-pattern>
+  	</servlet-mapping>
+
+  	 <servlet>
+  		<servlet-name>LoginError</servlet-name>
+  		<servlet-class>web.LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  		<servlet-name>LoginError</servlet-name>
+  		<url-pattern>/LoginError</url-pattern>
+  	</servlet-mapping>
+
+  	 <servlet>
+  		<servlet-name>LoginError02</servlet-name>
+  		<servlet-class>web.LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  		<servlet-name>LoginError02</servlet-name>
+  		<url-pattern>/LoginError02</url-pattern>
+  	</servlet-mapping>
+
+  	 <servlet>
+  		<servlet-name>Cheack</servlet-name>
+  		<servlet-class>web.CartServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  		<servlet-name>Cheack</servlet-name>
+  		<url-pattern>/Cheack</url-pattern>
+  	</servlet-mapping>
+   	 <servlet>
+  		<servlet-name>Buy</servlet-name>
+  		<servlet-class>web.CheckServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  		<servlet-name>Buy</servlet-name>
+  		<url-pattern>/Buy</url-pattern>
+  	</servlet-mapping>
+
+	 <servlet>
+  		<servlet-name>Logout</servlet-name>
+  		<servlet-class>web.Logout</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  		<servlet-name>Logout</servlet-name>
+  		<url-pattern>/Logout</url-pattern>
+  	</servlet-mapping>
+
+ 	 <servlet>
+  		<servlet-name>register</servlet-name>
+  		<servlet-class>web.RegisterServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  		<servlet-name>register</servlet-name>
+  		<url-pattern>/register</url-pattern>
+  	</servlet-mapping>
+
+ 	 <servlet>
+  		<servlet-name>RegisterClear</servlet-name>
+  		<servlet-class>web.RegisterClearServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  		<servlet-name>RegisterClear</servlet-name>
+  		<url-pattern>/RegisterClear</url-pattern>
+  	</servlet-mapping>
+
+</web-app>
