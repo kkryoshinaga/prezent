@@ -5,7 +5,8 @@ public class prezent{
 		int x = 10;
 		int y = 30;
 		System.out.println(x + y);
-	
+		System.out.println("HELLO WOERLD");
+		
 	}
 	
 }	
